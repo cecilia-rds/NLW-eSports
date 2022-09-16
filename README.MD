@@ -6,7 +6,7 @@
 </p>
 
 
-![Design preview for the page coding](../img/preview.PNG)
+![Design preview for the page coding](./assets/img/preview.PNG)
 
 
 ## 💻 Sobre o projeto
