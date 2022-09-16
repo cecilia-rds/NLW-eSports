@@ -8,89 +8,99 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/avatar.css">
     <link rel="stylesheet" href="assets/css/jogos.css">
     <link rel="stylesheet" href="assets/css/streamers.css">
     <link rel="stylesheet" href="assets/css/redes.css">
-    <title>NLW Esports</title>
+    <title>NLW eSports</title>
 </head>
 <body>
+    <header class="avatar">
+        <div class="avatar__div">
+            <img class="avatar__img" src="https://avatars.githubusercontent.com/u/30732087?s=400&u=85602a057c1319ecffb39bcc6d00b51e116561c9&v=4">
+        </div>
+    </header>
     <main class="conteudo">
-        <img class="avatar" src="https://avatars.githubusercontent.com/u/30732087?s=400&u=85602a057c1319ecffb39bcc6d00b51e116561c9&v=4">
-        <section class="jogos">
+        <section class="borda-gradiente borda-gradiente--jogos">
+            <div class="jogos">
                 <h2 class="titulo">Meus jogos</h2>
                 <p class="sub-titulo">As series que eu mais curto!</p>
                 <ul class="jogos__lista">
-                    <li>
-                        <a href="https://www.twitch.tv/directory/game/League%20of%20Legends">
+                    <li class="jogos__item">
+                        <a href="https://www.twitch.tv/directory/game/League%20of%20Legends" target="_blank">
                         <img class="jogos__img" src="https://static-cdn.jtvnw.net/ttv-boxart/21779-285x380.jpg" alt="Cartaz League of Legends">
                         </a>
                     </li>
-                    <li>
-                        <a href="https://www.twitch.tv/directory/game/Apex%20Legends">
+                    <li class="jogos__item">
+                        <a href="https://www.twitch.tv/directory/game/Apex%20Legends" target="_blank">
                         <img class="jogos__img" src="https://static-cdn.jtvnw.net/ttv-boxart/511224-144x192.jpg" alt="Cartaz Apex">
                         </a>
                     </li>
-                    <li>
-                        <a href="https://www.twitch.tv/directory/game/World%20of%20Warcraft">
+                    <li class="jogos__item">
+                        <a href="https://www.twitch.tv/directory/game/World%20of%20Warcraft" target="_blank">
                         <img class="jogos__img"src="https://static-cdn.jtvnw.net/ttv-boxart/18122-144x192.jpg" alt="Cartaz Warcraft">
                         </a>
                     </li>
                 </ul>
-
+            </div>
         </section>
-        <section class="streamers">
-            <h2 class="titulo">Canais streamers </h2>
+        <section class="borda-gradiente borda-gradiente--streamers">
+            <div class="streamers"> 
+                <h2 class="titulo">Canais streamers </h2>
 
-            <p class="sub-titulo">Lista de canais e trnsmissões que não perco</p>
-            <ul class="streamers__lista">
-                <li>
-                    <a href="https://www.twitch.tv/rocketseat_oficial/videos?category=21779&filter=archives&sort=time">
-                        <img class="redes__img" src="https://static-cdn.jtvnw.net/jtv_user_pictures/32092d00-2638-422d-8a24-c609354e8a9d-profile_image-70x70.png" alt="Canal Rocketseat">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.twitch.tv/captainpuffy">
-                        <img class="redes__img" src="https://static-cdn.jtvnw.net/jtv_user_pictures/8494423d-e131-4f8a-86df-cd680a990976-profile_image-70x70.png" alt="Canal CaptainPuffy
-                        ">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.twitch.tv/valorant_jpn">
-                        <img class="redes__img" src="https://static-cdn.jtvnw.net/jtv_user_pictures/40f51ccf-06c7-48a0-926e-a4fa59d08c68-profile_image-70x70.png" alt="Canal Valorant">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.twitch.tv/csgo_mc">
-                        <img class="redes__img" src="https://static-cdn.jtvnw.net/jtv_user_pictures/22291960-3b5d-4bfd-b929-188df129403e-profile_image-70x70.png" alt="Canal Cs-GO">
-                    </a>
-                </li>
-            </ul>
+                <p class="sub-titulo">Lista de canais e trnsmissões que não perco</p>
+                <ul class="streamers__lista">
+                    <li class="streamers__item">
+                        <a href="https://www.twitch.tv/rocketseat_oficial/videos?category=21779&filter=archives&sort=time" target="_blank">
+                            <img class="streamers__img" src="https://static-cdn.jtvnw.net/jtv_user_pictures/32092d00-2638-422d-8a24-c609354e8a9d-profile_image-70x70.png" alt="Canal Rocketseat">
+                        </a>
+                    </li>
+                    <li class="streamers__item">
+                        <a href="https://www.twitch.tv/captainpuffy" target="_blank">
+                            <img class="streamers__img" src="https://static-cdn.jtvnw.net/jtv_user_pictures/8494423d-e131-4f8a-86df-cd680a990976-profile_image-70x70.png" alt="Canal CaptainPuffy
+                            ">
+                        </a>
+                    </li>
+                    <li class="streamers__item">
+                        <a href="https://www.twitch.tv/valorant_jpn" target="_blank">
+                            <img class="streamers__img" src="https://static-cdn.jtvnw.net/jtv_user_pictures/40f51ccf-06c7-48a0-926e-a4fa59d08c68-profile_image-70x70.png" alt="Canal Valorant">
+                        </a>
+                    </li>
+                    <li class="streamers__item">
+                        <a href="https://www.twitch.tv/csgo_mc" target="_blank">
+                            <img class="streamers__img" src="https://static-cdn.jtvnw.net/jtv_user_pictures/22291960-3b5d-4bfd-b929-188df129403e-profile_image-70x70.png" alt="Canal Cs-GO">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </section>
-        <section class="redes">
-            <h2 class="titulo">Minhas redes</h2>
-            <p class="sub-titulo">Se conecte comigo!</p>
-            <ul class="redes__lista">
-                <li>
-                    <a href="https://www.twitch.tv/">
-                        <img src="assets/img/TwitchLogo.png" alt="Logo da Twitch">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.Twitter.com/">
-                        <img src="assets/img/TwitchLogo.png" alt="Logo do Twitter">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/">
-                        <img src="assets/img/InstagramLogo.png" alt="Logo do Instagram">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.Youtube.com/">
-                        <img src="assets/img/YoutubeLogo.png" alt="Logo do Youtube">
-                    </a>
-                </li>
-            </ul>
+        <section class="borda-gradiente borda-gradiente--redes">
+            <div class="redes">
+                <h2 class="titulo">Minhas redes</h2>
+                <p class="sub-titulo">Se conecte comigo!</p>
+                <ul class="redes__lista">
+                    <li class="redes__item">
+                        <a href="https://www.twitch.tv/" target="_blank">
+                            <img src="assets/img/TwitchLogo.png" alt="Logo da Twitch">
+                        </a>
+                    </li>
+                    <li class="redes__item">
+                        <a href="https://www.Twitter.com/" target="_blank">
+                            <img src="assets/img/twitter.png" alt="Logo do Twitter">
+                        </a>
+                    </li>
+                    <li class="redes__item">
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img src="assets/img/InstagramLogo.png" alt="Logo do Instagram">
+                        </a>
+                    </li>
+                    <li class="redes__item">
+                        <a href="https://www.Youtube.com/" target="_blank">
+                            <img src="assets/img/YoutubeLogo.png" alt="Logo do Youtube">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
 </body>
