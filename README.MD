@@ -1,22 +1,24 @@
 
-<h1 align="">NLW eSports</h1>
+<h1 align="">NLW eSports - Desafio adicional</h1>
 
 <p align=""> 
  Status do projeto: :heavy_check_mark: (Concluido)
 </p>
 
 
-![Design preview for the page coding](../img/preview.PNG)
+![Design preview for the page coding](./assets/img/preview.PNG)
 
 
 ## 💻 Sobre o projeto
 
-Este projeto foi desenvolvido durante a NLW eSports(Trilha Explorer) da Rocketseet.
+Este desafio adicional da NLW eSports(Trilha Explorer) da Rocketseet.
 
 
 ## 🌏 Deploy:
 
 https://cecilia-rds.github.io/NLW-eSports
+
+
 
 
 

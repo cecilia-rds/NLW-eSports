@@ -1,25 +1,29 @@
-.borda-gradiente--jogos {
+.borda-gradiente--series {
     animation: fromBottom .7s backwards;
-    animation-delay: 0;
+    animation-delay: .3s
 }
-.jogos {
-    animation-delay: .0s;
+.series {
     background-color: #2A2634;
     border-radius: 10px;
     padding: 24px 32px 32px;
     width: 580px;
 }
-.jogos__lista {
+.series__lista {
     display: flex;
     gap: 1rem;
     list-style: none;
     padding-top: 24px;
 }
-.jogos__img {
-    border-radius: 8px;
+.series__img{
     width: 110px;
-    transition: tranform .3s;
 }
-.jogos__img:hover {
+.series__img {
+    border-radius: 8px;
+    border: 1px solid #443E54;
+    transition: transform .3s;
+}
+.series__img:hover {
     transform: scale(1.1);
+
 }
+
